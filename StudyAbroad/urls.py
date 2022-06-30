@@ -13,6 +13,7 @@ urlpatterns = [
     re_path('admin/', admin.site.urls),
     re_path(r'^$', views.DocumentOfficer_dashboard, name='DocumentOfficer_dashboard'),
     re_path(r'^DocumentOfficer_index$', views.DocumentOfficer_index, name='DocumentOfficer_index'),
+    re_path(r'^DocumentOfficer_CurrentLeads_table$', views.DocumentOfficer_CurrentLeads_table, name='DocumentOfficer_CurrentLeads_table'),
     
 
 ]

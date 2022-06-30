@@ -7,3 +7,6 @@ def DocumentOfficer_index(request):
     
 def DocumentOfficer_dashboard(request):
     return render(request,"DocumentOfficer_dashboard.html")
+    
+def DocumentOfficer_CurrentLeads_table(request):
+    return render(request,"DocumentOfficer_CurrentLeads_table.html")
