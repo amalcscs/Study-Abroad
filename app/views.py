@@ -4,3 +4,6 @@ from django.shortcuts import render,redirect
 
 def DocumentOfficer_index(request):
     return render(request,"DocumentOfficer_index.html")
+    
+def DocumentOfficer_dashboard(request):
+    return render(request,"DocumentOfficer_dashboard.html")

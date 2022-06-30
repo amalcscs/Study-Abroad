@@ -11,8 +11,8 @@ from app import views
 
 urlpatterns = [
     re_path('admin/', admin.site.urls),
-    re_path(r'^$', views.DocumentOfficer_index, name='DocumentOfficer_index'),
-    # re_path(r'^admin_login$', views.admin_login, name='admin_login'),
+    re_path(r'^$', views.DocumentOfficer_dashboard, name='DocumentOfficer_dashboard'),
+    re_path(r'^DocumentOfficer_index$', views.DocumentOfficer_index, name='DocumentOfficer_index'),
     
 
 ]
